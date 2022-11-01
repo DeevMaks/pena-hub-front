@@ -1,0 +1,51 @@
+.btn {
+    width: 180px;
+    height: 44px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #7E2AEA;
+    border: 1px solid #7E2AEA;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #7E2AEA;
+}
+
+.btn--white {
+    color: #7E2AEA;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.btn--white:hover {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.btn--reverse {
+    color: #7E2AEA;
+    background-color: transparent;
+    border: 1px solid #7E2AEA;
+}
+
+.btn--reverse:hover {
+    background-color: #7E2AEA;
+    color: #FFFFFF;
+}
+
+.btn--reverse-white {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.btn--reverse-white:hover {
+    background-color: #7E2AEA;
+    color: #FFFFFF;
+}

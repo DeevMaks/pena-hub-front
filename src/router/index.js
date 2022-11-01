@@ -1,19 +1,66 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import LandingPage from '../pages/LandingPage.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'landing',
+    component: LandingPage
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/tarif',
+    name: 'tarif',
+    component: () => import('../pages/TarifPage.vue')
+  },
+  {
+    path: '/tarif/time',
+    name: 'time-tarif',
+    component: () => import('../pages/TimeTarifPage.vue')
+  },
+  {
+    path: '/tarif/volume',
+    name: 'volume-tarif',
+    component: () => import('../pages/VolumeTarifPage.vue')
+  },
+  {
+    path: '/tarif/custom',
+    name: 'custom-tarif',
+    component: () => import('../pages/CustomTarifPage.vue')
+  },
+  {
+    path: '/faq',
+    name: 'faq',
+    component: () => import('../pages/FaqPage.vue')
+  },
+  {
+    path: '/support',
+    name: 'support',
+    component: () => import('../pages/SupportPage.vue')
+  },
+  {
+    path: '/cash',
+    name: 'cash',
+    component: () => import('../pages/CashPage.vue')
+  },
+  {
+    path: '/pay',
+    name: 'pay',
+    component: () => import('../pages/PayPage.vue')
+  },
+  {
+    path: '/paylog',
+    name: 'paylog',
+    component: () => import('../pages/PaylogPage.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../pages/LoginPage.vue')
+  },
+  {
+    path: '/registration',
+    name: 'registration',
+    component: () => import('../pages/RegistrationPage.vue')
   }
 ]
 

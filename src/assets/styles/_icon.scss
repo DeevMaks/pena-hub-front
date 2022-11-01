@@ -1,0 +1,43 @@
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% ;
+    color: white;
+    background-color: #FB5607; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    background-color: #F2F3F7;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}    
+
+.icon--primary {
+    background-color: #7E2AEA;
+}
+
+.icon--unlim {
+    background-color: #D6F3E9;
+}
+
+.icon--time {
+    background-color: #EEE4FC;
+}
+
+.icon--white {
+    background-color: #FFFFFF;
+}
+
+.icon--red {
+    background-color: #FEDFD0;
+}
